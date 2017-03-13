@@ -10,16 +10,12 @@ jQuery plugin to play images
     <div id="imageBox" style="height:300px;width:350px;"></div>
     <script type="text/javascript">  
 	   var images = [{title:"Tulips",path:'images/Tulips.jpg'},{title:"Jellyfish",path:'images/Jellyfish.jpg'},{title:"Koala",path:'images/Koala.jpg'},{title:"Desert",path:'images/Desert.jpg'}];
-     
-	   $("#imageBox").imageCarousel(images,{
-			autoSlide:true,
-			alwaysShowTitle:true,
-			clickImage:function(e,index){
-        //...
-      },
-	   //...
-	   });
-	    
+     $("#imageBox").imageCarousel(images,{
+	 autoSlide:true,
+	 alwaysShowTitle:true,
+	 clickImage:function(e,index){
+        },
+     });    
   </script> 
 
 
