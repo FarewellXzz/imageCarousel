@@ -2,20 +2,14 @@
 jQuery plugin to play images
 
 ## quik start
-<!DOCTYPE html>
-<html >
-<head>
-	<meta charset="UTF-8">
-    <title>imageCarousel demo</title>
+
     <link rel="stylesheet" type="text/css" href="imageCarousel.css" />
     <script type="text/javascript" src="jquery-1.11.3.min.js"></script>
-	<script type="text/javascript" src="imageCarousel.js"></script>
-</head>
+    <script type="text/javascript" src="imageCarousel.js"></script>
 
-<body>
-  <div id="imageBox" style="height:300px;width:350px;"></div>
-  <script type="text/javascript">  
-	   var images = [{title:"Tulips",path:'images/Tulips.jpg'},{title:"Jellyfish",path:'images/Jellyfish.jpg'},{title:"Koala",path:'images/Koala.jpg'},{title:"Desert",path:'images/Desert.jpg'}];
+    <div id="imageBox" style="height:300px;width:350px;"></div>
+    <script type="text/javascript">  
+	   var images = [{title:"Tulips",path:'images/Tulips.jpg'},{title:"Jellyfish",path:'images/Jellyfish.jpg'},{title:"Koala",path:'images/Koala.jpg'},{title:"Desert",path:'images/Desert.jpg'}];
      
 	   $("#imageBox").imageCarousel(images,{
 			autoSlide:true,
@@ -27,10 +21,7 @@ jQuery plugin to play images
 	   });
 	    
   </script> 
-  
-</body>
 
-</html>
 
 ## Additional options
     //滑动速度 slide speed
