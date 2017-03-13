@@ -20,7 +20,7 @@ jQuery plugin to play images
 ```
 
 ## Additional options
-    	//滑动速度 slide speed
+    //滑动速度 slide speed
 	speed:300, 
 
 	//是否主动滑动 slide automatically
