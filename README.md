@@ -1,5 +1,5 @@
 # imageCarousel by FarewellXzz
-jQuery plugin to play images
+jQuery plugin for playing images
 
 ## quik start
 
